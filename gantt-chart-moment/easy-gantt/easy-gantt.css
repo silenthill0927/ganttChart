@@ -1,0 +1,147 @@
+table.tb-gantt {
+    position: relative;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 11px;
+    font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-collapse: collapse;
+    display: block;
+    overflow: auto;
+    max-height: auto;
+
+    
+  border-radius: .25rem;
+}
+
+table.tb-gantt thead th {
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    
+}
+
+table.tb-gantt tbody .td-bg1 {
+    background: #ffffff;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 0px;
+    
+
+}
+table.tb-gantt tbody .td-bg2 {
+    background: #ffffff;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 0px;
+    
+
+}
+
+table.tb-gantt thead .month-name-par {
+    background-color: white;
+    color: gray;
+    
+}
+
+table.tb-gantt thead .month-name-odd {
+    background-color: white;
+    color: gray;
+    
+}
+
+
+table.tb-gantt thead .days {
+    background-color: white;
+    color: gray;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+table.tb-gantt thead .days > p{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 3px 0px 0px 0px;
+    border-right: 1px solid rgb(184, 184, 184);
+}
+
+
+
+table.tb-gantt thead th:nth-child(1) {/*first cell in the header*/
+    min-width: 200px;
+}
+
+table.tb-gantt tbody tr th:nth-child(1) {  /*the first cell in each tr*/
+    height: 20px;
+    min-width: 200px;
+    background-color: white;
+    border-right: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    
+    padding-top:20px;
+    padding-bottom: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+    color: gray;
+}
+
+table.tb-gantt tbody tr th:nth-child(1) > p{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    
+    text-align: left;
+    
+    
+    
+    
+}
+
+
+div.tooltip-gantt{
+    width:auto;
+    height:auto;
+    color:white;
+    background: rgb(67, 121, 96);
+    position:absolute;
+    z-index:10001;
+    padding:10px 10px 10px 10px;
+    line-height: 200%;
+    border-radius: .25rem;
+}
+
+table.tb-gantt tbody .td-tasks > .div-task{
+	border-radius: .25rem;
+    min-height: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+table.tb-gantt tbody .td-tasks > .border-radius-full{
+    border-radius: .25rem;
+}
+
+table.tb-gantt tbody .td-tasks > .border-radius-left{
+    border-radius: .25rem 0 0 .25rem;
+}
+
+table.tb-gantt tbody .td-tasks > .border-radius-right{
+    border-radius: 0 .25rem .25rem 0;
+}
+
+table.tb-gantt tbody .div-task{
+    height: 30px;
+    text-align: center;
+    
+}
+
+table.tb-gantt tbody .td-tasks {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
